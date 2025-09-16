@@ -1,0 +1,40 @@
+/*Aplica a todos os elemento*/
+*{
+    margin: 20;
+    padding: 20;
+    box-sizing: border-box;
+}
+/* Reutilizável em vários elementos */
+.destaque{
+    color: blue;
+    font-weight: bold;
+}
+/* Único, para um elemento específico */
+#titulo-principal{
+    color:red;
+    text-align: center;
+}
+/* Altera todos os elementos daquela tag */
+p{
+    font-size: 30px;
+    line-height: 1.5;
+}
+/* Agrupamento de setores */
+h1,h2,h3{
+    font-family: arial, sans-serif;
+    color:darkgreen;
+}
+h4{
+    line-height: 4;
+    letter-spacing: 6px;
+    word-spacing: 10px;
+}
+img{
+    width:300px;
+    border:3px solid red;
+    display:block;
+    margin:auto;
+}
+ul{
+    list-style-type: square;
+}
