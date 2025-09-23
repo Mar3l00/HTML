@@ -1,0 +1,36 @@
+*{
+    font-weight: 20px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+li{
+    float:left;
+}
+a{
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+li:hover{
+    color: black;
+    text-decoration: underline;
+    background-color: red;
+}
+h1, h2{
+    color: navy;
+    text-align: center;
+}
+.destaque{
+    font-family: sans-serif, arial;
+}
+td{
+    padding:20px;
+    margin:0;
+    border:6px solid black;
+}
