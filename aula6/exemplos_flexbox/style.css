@@ -121,6 +121,7 @@ h2 {
 .self-fim{
     align-self: end;
 }
+/*9. Exemplo Prático: Menu de Navegação*/
 .menu-nav{
     gap: 20;  
     background-color: black;
